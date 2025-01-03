@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main App Container */
+.App {
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Heading */
+.App h1 {
+  font-size: 1.8rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Input and Button */
+.App input[type="text"] {
+  width: calc(100% - 100px);
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.App button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.App button:hover {
+  background-color: #45a049;
+}
+
+/* Task List */
+.task-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Individual Task */
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.task span {
+  flex: 1;
+  color: #333333;
+  font-size: 1rem;
+}
+
+.task button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.task button:hover {
+  background-color: #e53935;
+}
+
+/* No Tasks Message */
+.App p {
+  color: #777777;
+  font-size: 1rem;
+  margin-top: 20px;
+}
