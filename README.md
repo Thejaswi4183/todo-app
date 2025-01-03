@@ -1,6 +1,5 @@
-To run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser. 
+## How to run
+1. CD into the project directories (frontend AND backend)
+2. Run **npm install to install** all dependencies in **both** of those directories
+3. Run **npm start** to run the frontend application
+4. Run **npm run dev** to run the backend api
